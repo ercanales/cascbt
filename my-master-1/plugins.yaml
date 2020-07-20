@@ -1,2 +1,2 @@
 plugins:
-  - id: "job-dsl-plugin"
+  - id: "job-dsl"
