@@ -5,7 +5,5 @@ displayName: "Must Have Master Catalog"
 configurations:
 - description: "Important plugins"
   includePlugins:
-    structs:
-      version: 1.19
     job-dsl:
       version: 1.77
