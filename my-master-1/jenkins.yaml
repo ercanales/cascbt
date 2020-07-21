@@ -1,6 +1,8 @@
   
 jobs:
   - script: >
+      folder('my-master-1')
+  - script: >
       organizationFolder('my-master-1/example') {
         description('This contains branch source jobs for Bitbucket and GitHub')
         displayName('Organization Folder')
