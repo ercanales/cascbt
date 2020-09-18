@@ -1,4 +1,16 @@
-  
-jobs:
-  - script: >
-      folder('testfolder')
+jenkins:
+  agentProtocols:
+  - "Diagnostic-Ping"
+  - "JNLP4-connect"
+  - "OperationsCenter2"
+  - "Ping"
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
+unclassified:
+  operationsCenterRootAction:
+    connectionDetails: |-
+      ----- BEGIN CONNECTION DETAILS -----
+      H4sIAAAAAAAAAA2KSQ6AIAwA/9KzDRQQK78REDVxC8GT8e92bjOZF5Y6nQ0CFEM2WedQ82zQ9aPD
+      6EkjZcvFR0rMGjrYsryE6RgE8afuEtbW7qDUlQILCr4fuu56q1gAAAA=
+      ----- END CONNECTION DETAILS -----
